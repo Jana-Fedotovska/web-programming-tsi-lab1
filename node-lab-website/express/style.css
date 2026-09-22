@@ -1,7 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 p {
-    color: #555;
+    color: #a178ff;
     font-size: 17px;
     line-height: 1.6;
-    max-width: 600px;
-    margin-bottom: 20px;
+    padding-left: 15px;
+   
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+
+li {
+    background-color: #4c0a86;
+    color: white;
+    padding: 14px ;
+    margin:  10px;
+    border-radius: 12px;
+}
+
+ul {
+    border-radius: 15px;
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(-8px); }
+    40%  { transform: translateX(8px); }
+    60%  { transform: translateX(-6px); }
+    80%  { transform: translateX(6px); }
+    100% { transform: translateX(0); }
+}
+
+.buy-ticket {
+    transition: 0.3s;
 }
